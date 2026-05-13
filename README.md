@@ -1,6 +1,6 @@
-# gipMultiplayer
+# gipZnet
 
-A multiplayer networking plugin for GlistEngine. Provides the [znet](https://github.com/teoncreative/znet) networking library as `gipMultiplayer` (namespace alias to `znet`).
+A multiplayer networking plugin for GlistEngine. Provides the [znet](https://github.com/teoncreative/znet) networking library as `gipZnet` (namespace alias to `znet`).
 
 ## Setup
 
@@ -8,26 +8,26 @@ A multiplayer networking plugin for GlistEngine. Provides the [znet](https://git
 
 ```bash
 cd path/to/your/glistplugins
-git clone https://github.com/GlistPlugins/gipMultiplayer.git
+git clone https://github.com/GlistPlugins/gipZnet.git
 ```
 
 ### 2. Initialize submodules (for znet)
 
 ```bash
-cd gipMultiplayer
+cd gipZnet
 git submodule update --init --recursive
 ```
 
 ### 3. Add to your project's CMakeLists.txt
 
 ```cmake
-set(PLUGINS gipMultiplayer)
+set(PLUGINS gipZnet)
 ```
 
 ### 4. Include in your code
 
 ```cpp
-#include "gipMultiplayer.h"
+#include "gipZnet.h"
 ```
 
 ## Example
