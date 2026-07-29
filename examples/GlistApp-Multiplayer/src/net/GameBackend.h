@@ -15,7 +15,7 @@
 
 #pragma once
 
-#include "gipMultiplayer.h"
+#include "gipZnet.h"
 #include "GamePackets.h"
 #include "gNode.h"
 #include <mutex>

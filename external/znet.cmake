@@ -9,7 +9,7 @@ include(FetchContent)
 # Fail here rather than somewhere inside the fetched project.
 if(CMAKE_VERSION VERSION_LESS 3.29)
 	message(FATAL_ERROR
-			"gipMultiplayer needs CMake 3.29 or newer to build znet (found ${CMAKE_VERSION}).")
+			"gipZnet needs CMake 3.29 or newer to build znet (found ${CMAKE_VERSION}).")
 endif()
 
 set(ZNET_GIT_REPOSITORY "https://github.com/teoncreative/znet.git"

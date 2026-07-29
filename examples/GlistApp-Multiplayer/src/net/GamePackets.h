@@ -9,7 +9,7 @@
 #ifndef GAMEPACKETS_H
 #define GAMEPACKETS_H
 
-#include "gipMultiplayer.h"
+#include "gipZnet.h"
 
 // Packet IDs - must be unique per packet type
 enum : znet::PacketId {
